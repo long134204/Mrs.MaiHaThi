@@ -1,0 +1,80 @@
+
+	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£Âã·2J$e9d9b229-45cc-45dd-b30e-7a4d47e31176
+	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£Âã·2J$e98f3393-10c3-43df-b0c1-169d98b609f5
+	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£Âã·2J$c328e2e4-df9e-4ca9-8fbb-12d53132b135
+	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£Âã·2J$9d5cd48d-5bf4-4b6c-8a96-8d1b44f80069
+	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8šø´Ó¸2J$65dcbafa-3867-4a4c-8d12-811eb5cc6f38
+	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8šø´Ó¸2J$62b7bd7d-1d46-4d51-ae90-fedb107cc478
+	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ç‡¸üº2J$c1e584b1-49aa-43fa-a9da-3cf42be225dc
+	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ç‡¸üº2J$8468dc54-ec34-4269-bb54-f04522c6fd9b
+‰
+java:S1192A"FDefine a constant instead of duplicating this literal "types" 7 times.(ö…¼8ø´Ó¸2J$551cb7ae-ce86-4d68-b357-27cf9cab1778
+™
+java:S1192d"QDefine a constant instead of duplicating this literal "/book/create.jsp" 5 times.(İ¾Ìúşÿÿÿÿ8¥Âã·2J$80af5dbd-7ea3-409a-885f-e4e20f230903
+‰
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(±Œ©À8¥Âã·2J$5680425e-3faa-4be8-806e-91b65a37f972
+š
+java:S1192Š"VDefine a constant instead of duplicating this literal "/books?page=1&size=10" 5 times.(ßùïÁ8ÄİÉÀ¸2J$7f874d64-6598-4556-bc54-3dfb65584d31
+Œ
+java:S1192¦"HDefine a constant instead of duplicating this literal "message" 3 times.(ÆĞ”8¥Âã·2J$0bc68006-f0d0-40cc-9f6d-00c429e16bc4
+q
+java:S5411¢"(Use a primitive boolean expression here.(ãÉåíúÿÿÿÿ8¨Âã·2J$894e3302-a8bc-41e2-8d04-b6154db9bcef
+l
+java:S5411¾"(Use a primitive boolean expression here.(«±¸ÿ8¨Âã·2J$d38f8501-d650-498f-9593-8dcc4236b3ca
+l
+java:S5411×"(Use a primitive boolean expression here.(ÆŞ¹8¨Âã·2J$3d1fc4c3-ad31-4816-a5f3-03eb7a829eff
+l
+java:S5411å"(Use a primitive boolean expression here.(¶“©8©Âã·2J$4b09db45-f95b-4017-8e55-f2d0931c9346
+„
+java:S4973#"<Strings and Boxed types should be compared using "equals()".(’ŸæÆıÿÿÿÿ8ªÂã·2J$976c7d72-cb58-478c-8ea4-e8180566b85a
+…
+java:S4973´"<Strings and Boxed types should be compared using "equals()".(±·Û“ÿÿÿÿÿ8«Âã·2J$7ffff8b0-fe6c-4044-bf53-48c7577ec51d
+…
+java:S4973´"<Strings and Boxed types should be compared using "equals()".(±·Û“ÿÿÿÿÿ8«Âã·2J$36dbd460-2583-4299-8ed2-2096b78369b9
+…
+java:S4973´"<Strings and Boxed types should be compared using "equals()".(±·Û“ÿÿÿÿÿ8«Âã·2J$e31e8431-148f-473f-80a8-b718e8b9fae2
+…
+java:S4973´"<Strings and Boxed types should be compared using "equals()".(±·Û“ÿÿÿÿÿ8«Âã·2J$177785b0-12e6-4d37-a07e-18edbf182be6
+€
+java:S4973İ"<Strings and Boxed types should be compared using "equals()".(–ğ¾Ã8«Âã·2J$d1fee071-5946-40f0-ac5c-f707436251ed
+€
+java:S4973İ"<Strings and Boxed types should be compared using "equals()".(–ğ¾Ã8¹¢¾¸2J$45d4b905-6ae0-44ce-b76e-6f466c76eb80
+€
+java:S4973İ"<Strings and Boxed types should be compared using "equals()".(–ğ¾Ã8¹¢¾¸2J$d07c6a5a-cd0d-4808-94a2-61f05e8cb399
+€
+java:S4973İ"<Strings and Boxed types should be compared using "equals()".(–ğ¾Ã8º¢¾¸2J$822b6eec-f40e-441d-a936-5852f670f76a
+¯
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(±Œ©À8×Âã·2J$a62f5c7a-ab04-45a1-9418-0ba6987a3d86
+–
+java:S1989$"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ğÑ¶Ê8ØÂã·2J$649b41c7-33f7-4563-9eb3-ed530f53b8d2
+“
+java:S19891"QHandle the following exception that could be thrown by "updateForm": IOException.(Êğ‹8¯¸Ó¸2J$8dd31e84-1c5e-428d-948b-c44cc0575879
+‡
+java:S2147G"DCombine this catch with the one at line 69, which has the same body.(ï­£Ä8ßÂã·2J$a49c0528-7228-4bb6-b042-193527849cc2
+‡
+java:S2147\"DCombine this catch with the one at line 90, which has the same body.(ï­£Ä8áÂã·2J$3d1a7338-7e87-43b5-b26e-fef48950b023
+ˆ
+java:S2147i"ECombine this catch with the one at line 103, which has the same body.(ï­£Ä8×ø´Ó¸2J$3b53f163-0767-4436-bc30-b81e31e84a62
+¯
+java:S1989p"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(±Œ©À8âÂã·2J$da3849a5-5cf5-4a6c-bc5d-5636eedfccdc
+i	java:S131w""Add a default case to this switch.(ë´åİşÿÿÿÿ8ãÂã·2J$c3d5df61-b6b1-4e59-8881-1ce06ed94326
+¨
+java:S1989y"`Handle the following exceptions that could be thrown by "create": IOException, ServletException.(Åª«ıÿÿÿÿ8åÂã·2J$0f20c791-1c7b-4db8-96de-fea9774d5bca
+£
+java:S1989|"`Handle the following exceptions that could be thrown by "update": ServletException, IOException.(ö€Ú›8åÂã·2J$fcf29a4f-25a7-42f5-9cc7-f9f1823a7f75
+•
+java:S1989"MHandle the following exception that could be thrown by "delete": IOException.(³Àğêùÿÿÿÿ8æÂã·2J$11f11b36-b7c0-4748-ba92-9cdaf352cee3
+‘
+java:S1989‚"MHandle the following exception that could be thrown by "search": IOException.(¸Ú¹ß8í¤¸üº2J$f849bf0b-3375-43b1-8437-ab35ff04b50c
+‰
+java:S2147™"ECombine this catch with the one at line 151, which has the same body.(ï­£Ä8¬ˆ¸üº2J$d6643356-dc72-4c08-9621-6cf8a4ca0fe1
+’
+java:S1128"JRemove this unused import 'com.example.library_management.model.BookType'.(àÑÄúÿÿÿÿ8ïÉŒıº2J$a5cb2e1a-c5bf-468a-8211-adb8b2913744
+
+java:S1128"LRemove this unused import 'com.example.library_management.model.BorrowInfo'.(Éßì 8ïÉŒıº2J$dff605b0-7b67-4c82-ad36-839197213f16
+›
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ò„œ8ñÂã·2J$1c4d9923-121a-41b9-9cd6-5bbd1e05f7e4
+ 
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ù†Šİşÿÿÿÿ8òÂã·2J$72c9af01-b29b-40d1-852f-b1ec98a5b47f
+›
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(‚¸Ó¥8òÂã·2J$4993db7e-0236-499f-8109-22c18ba0e901

@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1.5rem ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    padding-top: 2rem;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    margin: 0;
+    border-right: 2px solid #007bff;
+}
+
+.sidebar .menu-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.sidebar a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.sidebar i {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+        position: absolute;
+        transform: translateX(-100%);  /* Ẩn sidebar khi chưa active */
+        transition: transform 0.3s ease;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);  /* Hiển thị sidebar khi active */
+    }
+
+    .header {
+        padding-left: 50px; /* Điều chỉnh lại phần header khi sidebar ẩn */
+    }
+}
+/* Search bar */
+.search-container {
+    margin-left: 270px;
+    margin-top: 125px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #e8f4f9;
+    border-radius: 50px;
+    border: 1px solid #c0e0f1;
+    padding: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+    background-color: #fff;
+}
+
+.search-button {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+
+
+/* TABLE */
+.table-wrapper {
+    margin-left: 300px;
+    margin-right: 30px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* BUTTONS */
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+/* PAGINATION */
+.pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .search-container {
+        margin: 100px 10px 10px 10px;
+    }
+
+    .table-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    table th,
+    table td {
+        padding: 8px;
+    }
+}

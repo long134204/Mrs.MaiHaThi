@@ -1,0 +1,42 @@
+
+“
+java:S1192:"PDefine a constant instead of duplicating this literal "/auth/login.jsp" 4 times.(ğÑ¶Ê8øõ’¶¹2J$99453909-7e41-4ee7-b19e-3fd700c6341e
+™
+java:S1192D"VDefine a constant instead of duplicating this literal "/books?page=1&size=10" 3 times.(ßùïÁ8ùõ’¶¹2J$60fb36fc-8700-4e2b-8639-afaac3ce072d
+‰
+java:S11929"FDefine a constant instead of duplicating this literal "email" 6 times.(ê¾úƒ8ùõ’¶¹2J$ae829784-3dbd-48bf-8275-1f9741361206
+p
+java:S5411N"(Use a primitive boolean expression here.(Ğ¤—ñşÿÿÿÿ8ûõ’¶¹2J$a851f9a4-419a-4d74-a2f4-11288a9fac65
+p
+java:S5411T"(Use a primitive boolean expression here.(ª‰ıîşÿÿÿÿ8ûõ’¶¹2J$8c01df23-2d59-4947-9de0-42eb03b55513
+k
+java:S5411h"(Use a primitive boolean expression here.(ÏØò¨8üõ’¶¹2J$b5d169ef-18b1-419b-a20e-206eea438eda
+
+java:S4973J"<Strings and Boxed types should be compared using "equals()".(íİØƒ8ıõ’¶¹2J$66dfda1d-75cb-4b1b-8854-32e9c1a80cca
+
+java:S4973J"<Strings and Boxed types should be compared using "equals()".(íİØƒ8şõ’¶¹2J$4354526c-d212-42f1-a1b4-170231b834c4
+
+java:S4973d"<Strings and Boxed types should be compared using "equals()".(íİØƒ8şõ’¶¹2J$09a590af-5719-4d45-8a59-dc81b61b47f1
+
+java:S4973d"<Strings and Boxed types should be compared using "equals()".(íİØƒ8şõ’¶¹2J$2fb431be-36a8-46e5-a4a7-d9436343ccad
+i	java:S131""Add a default case to this switch.(ë´åİşÿÿÿÿ8™ö’¶¹2J$ae4bbce3-6288-4789-a582-0ed9cfcb5406
+“
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ë´åİşÿÿÿÿ8›ö’¶¹2J$d444d942-eeb7-4a2b-a26e-a5ed3a46ffd8
+ª
+java:S1989"bHandle the following exceptions that could be thrown by "register": ServletException, IOException.(Š…íæøÿÿÿÿ8ö’¶¹2J$8de27e57-d016-4ba5-9337-fc3c8571f036
+¢
+java:S1989""_Handle the following exceptions that could be thrown by "login": ServletException, IOException.(é™Ì8ö’¶¹2J$930166dd-f2fb-42aa-9fe4-86d1082ea10c
+“
+java:S1301-"KReplace this "switch" statement by "if" statements to increase readability.(ë´åİşÿÿÿÿ8 ö’¶¹2J$fa293ed1-f49f-4d25-9772-276eca03b5a7
+
+java:S1989/"MHandle the following exception that could be thrown by "logout": IOException.(Êô÷µ8»‹”¶¹2J$6feae19f-f68d-4ed9-af8e-0587ae55fbfc
+–
+java:S19892"SHandle the following exception that could be thrown by "loginByEmail": IOException.(ë°¯í8 ö’¶¹2J$4a28b456-2d54-4759-961c-f2121ef54d50
+|
+java:S1128	"9Remove this unused import 'javax.servlet.ServletContext'.(á¡æŞ8®ö’¶¹2J$85b28387-2a7e-4531-ac33-c28993b06523
+›
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ö³„8¯ö’¶¹2J$c961082c-c4bf-4772-8df6-507fcfb29ddc
+š
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(®éÏH8¯ö’¶¹2J$b96fa103-5452-478b-aa61-43c231acc0e3
+s
+java:S1068"1Remove this unused "passwordUtils" private field.(®éÏH8°ö’¶¹2J$1e071c54-de4e-44fe-88a1-b5c9c62f72a6

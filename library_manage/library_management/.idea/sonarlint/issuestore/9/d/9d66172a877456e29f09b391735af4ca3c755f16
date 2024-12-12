@@ -1,0 +1,17 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$c84e557b-3278-4e96-b5f0-9db8280bcc88
+†	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$86f2e420-a6ee-4ae5-8a9f-fe262ece55c0
+†	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$193e7e8b-312a-4e65-97f6-5a8bf6ddee4b
+
+java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8‘æ™¨²2J$9ff616a9-5a09-4b9c-a2a9-d68a664c1beb
+—
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(µ§ÁÎÿÿÿÿÿ8‘æ™¨²2J$19f37d91-6f18-4124-9dca-eb3c3cdadf57
+’
+java:S2095:"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŒÑÉÂ8‘æ™¨²2J$245ca65d-3848-4649-b894-ca46cf55c565
+`
+java:S6905"Don't use the query "SELECT *".(µ§ÁÎÿÿÿÿÿJ$b530c4f7-be9f-472f-8d50-4a45b492cce8
+[
+java:S6905("Don't use the query "SELECT *".(¡»¡J$e4ba96e9-8a19-4bf0-ba77-790875f1a83b
+[
+java:S6905:"Don't use the query "SELECT *".(ŒÑÉÂJ$f612ffea-900c-4127-abad-9a0c7a53015e
+]	java:S125J"<This block of commented-out lines of code should be removed.(¡ÓÍ¾ûÿÿÿÿ8ÔÂò¨²2

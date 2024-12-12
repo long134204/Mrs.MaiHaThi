@@ -1,0 +1,11 @@
+
+«
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "accessToken".(ßêè‘ÿÿÿÿÿ8·ôö‘¸2J$48b1fdb6-1b07-41d2-bd86-13fd46fc7eb8
+ª
+java:S1488!"bImmediately return this expression instead of assigning it to the temporary variable "googlePojo".(Ñ§ıÿÿÿÿ8Ğ‘‰’¸2J$f5d9c5f7-4bc2-468a-9824-fe35c3aa3123
+Ò
+java:S1130"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(Œùó˜ûÿÿÿÿ8¿ôö‘¸2J$07ab2656-98eb-4ea2-974e-d84968a9b3d5
+
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ßêè‘ÿÿÿÿÿ8éôö‘¸2J$cfb25643-689e-420a-9b77-d41358f774cd
+Ò
+java:S1130"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ğèµøÿÿÿÿ8á‘‰’¸2J$cea7ac3d-6bd2-4301-acb6-3ded220807d7

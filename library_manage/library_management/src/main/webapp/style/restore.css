@@ -1,0 +1,157 @@
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    padding-top: 2rem;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    margin: 0;
+    border-right: 2px solid #007bff;
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+
+.sidebar .menu-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.sidebar a.active {
+    background-color: #0056b3;
+}
+
+.sidebar i {
+    margin-right: 10px;
+}
+
+/* Toggle Sidebar for smaller screens */
+.sidebar.active {
+    transform: translateX(0);
+}
+
+/* Content */
+.content {
+    margin-left: 250px;
+    margin-top: 90px;
+    padding: 2rem;
+    transition: margin-left 0.3s ease;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .form-title {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-custom {
+    width: 120px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+        width: 0;
+    }
+
+    .header {
+        padding-left: 50px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    .sidebar.active {
+        display: block;
+        position: absolute;
+        width: 250px;
+        height: 100%;
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .form-container {
+        padding: 1rem;
+    }
+
+    /* Make the content area fit screen width on mobile */
+    .content {
+        padding: 1rem;
+    }
+}
+
+/* For smaller screens */
+@media (max-width: 576px) {
+    .content {
+        margin-left: 0;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .form-container {
+        padding: 1rem;
+    }
+
+    .header {
+        font-size: 1.2rem;
+    }
+}
